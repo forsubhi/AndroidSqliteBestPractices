@@ -30,10 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17ab8d2c-f285-4998-83c1-1f59851d3e7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/DatabaseHelper.java" afterPath="$PROJECT_DIR$/src/database/DatabaseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entities/Employee.java" afterPath="$PROJECT_DIR$/src/entities/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entities/Manager.java" afterPath="$PROJECT_DIR$/src/entities/Manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/test/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/test/MyActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
@@ -101,8 +97,8 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/test/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2247557" vertical-offset="186" max-vertical-offset="2380">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.50162864" vertical-offset="186" max-vertical-offset="2380">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -580,12 +576,17 @@
       <workItem from="1396196154280" duration="1265000" />
       <workItem from="1396197569300" duration="9165000" />
       <workItem from="1396212379373" duration="218000" />
-      <workItem from="1396213492093" duration="1822000" />
+      <workItem from="1396213492093" duration="1921000" />
     </task>
+    <task id="LOCAL-00001" summary="some new examples">
+      <created>1396215537488</created>
+      <updated>1396215537488</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18321000" />
+    <option name="totallyTimeSpent" value="18420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
@@ -637,6 +638,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="some new examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="some new examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1062,8 +1065,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/test/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2247557" vertical-offset="186" max-vertical-offset="2380">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.50162864" vertical-offset="186" max-vertical-offset="2380">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
