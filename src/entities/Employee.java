@@ -36,6 +36,9 @@ public class Employee {
     @DatabaseField(dataType = DataType.SERIALIZABLE)
     public ArrayList<String> childrenNames;
 
+    @DatabaseField(foreign = true,canBeNull = true)
+    public  Manager managedBy;
+
 
 
 

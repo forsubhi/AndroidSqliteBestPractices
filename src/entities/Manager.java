@@ -4,6 +4,7 @@ import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.field.ForeignCollectionField;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * Created by MohammedSubhi on 3/30/14.
@@ -20,7 +21,7 @@ public class Manager {
     public  Department manage ;
 
     @ForeignCollectionField(eager = true)
-    public  ArrayList<Employee> employees;
+    public Collection<Employee> employees;
 
     public Manager() {
     }

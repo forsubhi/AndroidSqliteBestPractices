@@ -88,23 +88,29 @@ public class MyActivity extends Activity {
 
             departmentDao.deleteBuilder().delete();
             employeeDao.deleteBuilder().delete();
-
+            managerDao.deleteBuilder().delete();
 
             // part3 of lesson
             Manager m =  new Manager("Bahadir",new Department("ARI3","designers"));
 
             ArrayList<Employee> employees =    new ArrayList<Employee>();
             Employee Subhi = new Employee("Subhi", new Date(1990, 7, 26), "he is java developer");
+            Subhi.managedBy=m;
             Employee Eyad = new Employee("Eyad", new Date(1992, 1, 1), "he is C# developer");
+            Eyad.managedBy=m;
             employees.add(Subhi);
             employees.add(Eyad);
             m.employees =employees;
 
-            managerDao.create( m);
+            managerDao.create(m);
 
+
+            employeeDao.create(Subhi);
+            employeeDao.create(Eyad);
 
             printManagers();
             printDepartments();
+            printEmployees();
 
 
         } catch (SQLException e) {
@@ -116,7 +122,7 @@ public class MyActivity extends Activity {
     private void printDepartments() {
         List<Department> list = departmentDao.queryForAll();
         for (Department department : list) {
-            writeToStatus(department.id + " " + department.name + " " + department.Desc);
+            writeToStatus("department = "+department.id + " " + department.name + " " + department.Desc);
         }
     }
 
@@ -124,7 +130,7 @@ public class MyActivity extends Activity {
     private void printEmployees() {
         List<Employee> list = employeeDao.queryForAll();
         for (Employee employee : list) {
-            writeToStatus(employee.id + " " + employee.name + " " + employee.Desc + " " + employee.birthDay);
+            writeToStatus("employee= "+employee.id + " " + employee.name + " " + employee.Desc + " " + employee.birthDay);
         }
     }
 
@@ -132,7 +138,11 @@ public class MyActivity extends Activity {
     private void printManagers() {
         List<Manager> list = managerDao.queryForAll();
         for (Manager manager : list) {
-            writeToStatus(manager.id + " " + manager.name + " " + manager.manage.name );
+            writeToStatus("manager = "+manager.id + " " + manager.name + " " + manager.manage.name );
+
+            for (Employee employee : manager.employees) {
+                writeToStatus("manager --> employee= "+employee.id + " " + employee.name + " " + employee.Desc + " " + employee.birthDay);
+            }
         }
     }
 
