@@ -97,8 +97,8 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/test/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50162864" vertical-offset="186" max-vertical-offset="2380">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.39087948" vertical-offset="186" max-vertical-offset="2380">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -576,17 +576,21 @@
       <workItem from="1396196154280" duration="1265000" />
       <workItem from="1396197569300" duration="9165000" />
       <workItem from="1396212379373" duration="218000" />
-      <workItem from="1396213492093" duration="1921000" />
+      <workItem from="1396213492093" duration="1972000" />
     </task>
     <task id="LOCAL-00001" summary="some new examples">
       <created>1396215537488</created>
       <updated>1396215537488</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some new examples">
+      <created>1396215614584</created>
+      <updated>1396215614584</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18420000" />
+    <option name="totallyTimeSpent" value="18471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
@@ -1065,8 +1069,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/test/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50162864" vertical-offset="186" max-vertical-offset="2380">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.39087948" vertical-offset="186" max-vertical-offset="2380">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
