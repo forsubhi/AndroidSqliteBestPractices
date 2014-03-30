@@ -1,0 +1,89 @@
+#
+# generated on 2014/03/30 10:24:50
+#
+# --table-start--
+dataClass=entities.Department
+tableName=department
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=Desc
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=entities.Employee
+tableName=employee
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=birthDay
+# --field-end--
+# --field-start--
+fieldName=Desc
+# --field-end--
+# --field-start--
+fieldName=childrenNames
+dataPersister=SERIALIZABLE
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=entities.EmployeeDepartment
+tableName=employeedepartment
+# --table-fields-start--
+# --field-start--
+fieldName=d
+foreign=true
+foreignAutoCreate=true
+# --field-end--
+# --field-start--
+fieldName=e
+foreign=true
+foreignAutoCreate=true
+# --field-end--
+# --field-start--
+fieldName=numOfHours
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=entities.Manager
+tableName=manager
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=manage
+foreign=true
+foreignAutoRefresh=true
+foreignAutoCreate=true
+# --field-end--
+# --field-start--
+fieldName=employees
+foreignCollection=true
+foreignCollectionEager=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
