@@ -77,7 +77,6 @@ public class MyActivity extends Activity {
             EmployeeDepartment ED = new EmployeeDepartment();
             Department d = new Department("Programmers", "We are the programmers");
             Employee e = new Employee("Subhi", new Date(1990, 7, 26), "he is java developer");
-
             ED.d = d;
             ED.e = e;
             ED.numOfHours = 10;
@@ -92,7 +91,6 @@ public class MyActivity extends Activity {
 
             // part3 of lesson
             Manager m =  new Manager("Bahadir",new Department("ARI3","designers"));
-
             ArrayList<Employee> employees =    new ArrayList<Employee>();
             Employee Subhi = new Employee("Subhi", new Date(1990, 7, 26), "he is java developer");
             Subhi.managedBy=m;
@@ -101,10 +99,7 @@ public class MyActivity extends Activity {
             employees.add(Subhi);
             employees.add(Eyad);
             m.employees =employees;
-
             managerDao.create(m);
-
-
             employeeDao.create(Subhi);
             employeeDao.create(Eyad);
 
